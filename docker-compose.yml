@@ -8,3 +8,5 @@ web:
 mongo:
   image: mongo
   
+volumes:
+  - './data:/data/db'
